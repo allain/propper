@@ -14,7 +14,7 @@ npm install propper
 ## Usage
 
 ``` javascript
-var prop = require('prop')
+var prop = require('propper')
 
 var obj = {a: 1, b: {c: 'hello'}};
 
