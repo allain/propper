@@ -1,0 +1,25 @@
+{
+  "name": "propper",
+  "version": "0.1.0",
+  "description": "A tool for getting and setting object properties using dot notation, path notation, and arrays to speficy properties.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/allain/propper.git"
+  },
+  "keywords": [
+    "properties"
+  ],
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allain/propper/issues"
+  },
+  "homepage": "https://github.com/allain/propper#readme",
+  "devDependencies": {
+    "tape": "^4.0.2"
+  }
+}
