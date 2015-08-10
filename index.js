@@ -1,6 +1,8 @@
 module.exports = prop;
 
 function prop(obj, path, value) {
+  if (obj === null) return undefined;
+  
   var isGet = arguments.length === 2;
 
   var parts = path;

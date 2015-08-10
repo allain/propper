@@ -63,7 +63,13 @@ test('seting deep value to undefined trims empty objects', function(t) {
   t.deepEqual(obj2, {d: 1});
 });
 
-test('get deep value', function(t) {
+test('get prop on null returns undefined', function(t) {
+  t.plan(1);
+
+  t.equal(prop(null, 'a'), undefined);
+});
+
+test('get shallow value', function(t) {
   t.plan(4);
 
   var obj = {a: true, b: 1, c: 'hello'};
