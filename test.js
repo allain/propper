@@ -8,6 +8,20 @@ test('non-object', function(t) {
   t.equal(prop(false, ['a']), undefined);
 });
 
+test('null object', function(t) {
+  t.plan(3);
+  t.equal(prop(null, 'a'), undefined);
+  t.equal(prop(null, '/a'), undefined);
+  t.equal(prop(null, ['a']), undefined);
+});
+
+test('undefined object', function(t) {
+  t.plan(3);
+  t.equal(prop(undefined, 'a'), undefined);
+  t.equal(prop(undefined, '/a'), undefined);
+  t.equal(prop(undefined, ['a']), undefined);
+});
+
 test('empty object', function (t) {  
     t.plan(5);
 
