@@ -1,7 +1,7 @@
 module.exports = prop;
 
 function prop(obj, path, value) {
-  if (obj === null) return undefined;
+  if (!obj) return undefined;
   
   var isGet = arguments.length === 2;
 
