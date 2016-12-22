@@ -1,6 +1,6 @@
 {
   "name": "propper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tool for getting and setting object properties using dot notation, path notation, and arrays to speficy properties.",
   "main": "index.js",
   "scripts": {

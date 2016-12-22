@@ -104,3 +104,9 @@ test('get deep value', function(t) {
   t.equal(prop(obj, ['e', 'f']), 'hello');  
   t.equal(prop(obj, 'g.h'), undefined);
 });
+
+test('returns undefined when non object is passed as src', function(t) {
+  t.equal(prop(null, 'a'), undefined)
+  t.equal(prop(undefined, 'a'), undefined)
+  t.end()
+});
