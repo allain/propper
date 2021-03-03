@@ -4,7 +4,7 @@
   "description": "A tool for getting and setting object properties using dot notation, path notation, and arrays to speficy properties.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/tape test.js"
+    "test": "tape test.js"
   },
   "repository": {
     "type": "git",
